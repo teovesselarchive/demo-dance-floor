@@ -1,169 +1,96 @@
 ---
 name: Elite Surfaces
-description: A bold event editorial, with the dance floor as its stage.
+description: A photographic event editorial, with the floor and the celebration in focus.
 colors:
   bg: "#151515"
   panel: "#202020"
   text: "#f4f2ed"
   muted: "#b6b5b0"
-  accent: "#ff725e"
-  accent-hover: "#ff9686"
+  accent: "#9dbbff"
+  accent-hover: "#bed1ff"
   line: "rgba(244,242,237,.18)"
   light-bg: "#f3f2ef"
   light-panel: "#e8e7e3"
   light-text: "#191919"
   light-muted: "#565653"
-  light-accent: "#b93322"
-  light-accent-hover: "#952619"
+  light-accent: "#2855aa"
+  light-accent-hover: "#3869c5"
   light-line: "rgba(25,25,25,.2)"
 typography:
   display:
-    fontFamily: "Barlow Condensed, Arial Narrow, sans-serif"
-    fontSize: "clamp(90px,11.5vw,178px)"
-    fontWeight: 600
-    lineHeight: 0.88
-    letterSpacing: "-.025em"
+    fontFamily: "Manrope, Arial, sans-serif"
+    fontSize: "clamp(74px,8.2vw,122px)"
+    fontWeight: 500
+    lineHeight: 1.03
+    letterSpacing: "-.04em"
   headline:
-    fontFamily: "Barlow Condensed, Arial Narrow, sans-serif"
-    fontSize: "clamp(56px,6.5vw,96px)"
-    fontWeight: 600
-    lineHeight: 0.98
-    letterSpacing: "-.025em"
-  title:
-    fontFamily: "Barlow Condensed, Arial Narrow, sans-serif"
-    fontSize: "clamp(38px,4vw,56px)"
-    fontWeight: 600
-    lineHeight: 0.98
-    letterSpacing: "-.025em"
+    fontFamily: "Manrope, Arial, sans-serif"
+    fontSize: "clamp(44px,5.1vw,74px)"
+    fontWeight: 500
+    lineHeight: 1.08
+    letterSpacing: "-.04em"
   body:
     fontFamily: "Manrope, Arial, sans-serif"
     fontSize: "14px"
     fontWeight: 400
     lineHeight: 1.75
-  label:
-    fontFamily: "Manrope, Arial, sans-serif"
-    fontSize: "12px"
-    fontWeight: 400
-    lineHeight: 1.6
-  button:
-    fontFamily: "Manrope, Arial, sans-serif"
-    fontSize: "13px"
-    fontWeight: 700
-    lineHeight: 1.4
 rounded:
-  square: "0"
-  pill: "999px"
-  circle: "50%"
+  media: "0"
+  control: "4px"
+  menu: "50%"
 spacing:
-  compact: "8px"
-  small: "16px"
-  base: "24px"
-  medium: "32px"
-  large: "48px"
-  section: "clamp(72px,8vw,128px)"
   gutter: "clamp(24px,5.5vw,96px)"
+  section: "clamp(72px,8vw,128px)"
 components:
-  button-coral:
+  button-primary:
     backgroundColor: "{colors.accent}"
     textColor: "{colors.bg}"
-    typography: "{typography.button}"
-    rounded: "{rounded.pill}"
+    rounded: "{rounded.control}"
     padding: "16px 26px"
-  button-coral-hover:
-    backgroundColor: "{colors.accent-hover}"
-  button-light:
-    backgroundColor: "{colors.text}"
-    textColor: "{colors.bg}"
-    typography: "{typography.button}"
-    rounded: "{rounded.pill}"
-    padding: "16px 26px"
-  button-outline:
-    backgroundColor: "transparent"
-    textColor: "{colors.text}"
-    typography: "{typography.button}"
-    rounded: "{rounded.pill}"
-    padding: "16px 26px"
-  button-small:
-    rounded: "{rounded.pill}"
-    padding: "12px 20px"
-  floor-info:
-    backgroundColor: "{colors.panel}"
-    textColor: "{colors.text}"
-    rounded: "{rounded.square}"
-    padding: "clamp(28px,4vw,60px)"
-  field:
-    backgroundColor: "transparent"
-    textColor: "{colors.text}"
-    rounded: "{rounded.square}"
-    padding: "13px 0 14px"
-  choice:
-    backgroundColor: "transparent"
-    textColor: "{colors.text}"
-    rounded: "{rounded.pill}"
-    padding: "11px 17px"
 ---
 
-# Design System: Elite Surfaces
+# Elite Surfaces design system
 
-## Overview
+The creative direction is an event editorial: actual floors and celebrations, generous charcoal space, broad white typography, and cornflower blue where the visitor acts. Vessel Archive receives a quiet footer credit; its visual identity is not used as the customer's identity.
 
-**Creative North Star: “The dance floor as a stage.”**
+## References and interpretation
 
-A bold event editorial for Elite Surfaces, created for Vessel Archive. Oversized condensed statements, original event photography, charcoal surfaces, warm white, and vivid coral make celebrations feel immediate. The system balances expressive display type with quiet, readable supporting copy.
+[Meetings](https://www.cssdesignawards.com/sites/meetings/41918/) is an equipment-rental and event-production company. Its site won CSS Design Awards Website of the Day on September 10, 2022. Its live site was visually reviewed: offset photographic planes, central event imagery, large white lettering, and a restrained black field informed the opening composition.
 
-**Key characteristics:** cinematic image stages; asymmetrical editorial grids; generous section spacing; sharp media edges; rounded controls. This document records the shipped code, refreshing the provisional direction under the user's delegated creative authority.
+[OBSESD Wedding Photography](https://www.cssdesignawards.com/sites/obsesd-wedding-photography/47528/) received Special Kudos on May 26, 2025. Its archived award screenshot supplied a second reference for editorial hierarchy and giving photographs room. The current domain has changed, so the reference is the awarded presentation, not a claim about today's site.
 
-## Colors
+The implementation is original. No reference website code, photography, logo, or wording was copied into the demo.
 
-**Primary:** Coral (`accent`) marks emphatic words, primary actions, selected tabs, focus, and small editorial accents. The brighter coral remains on photographic stages in both preferences. Its softer hover variant belongs to dark-mode primary buttons.
+## Hero
 
-**Neutral:** Charcoal `bg` and slightly lighter `panel` define the default reading surfaces. Warm `text`, subdued `muted`, and translucent `line` create hierarchy without extra decoration. Photography and the supplied logo provide the remaining color.
+“The floor is yours.” is two lines of upright, white Manrope. It has no highlighted word, rotated label, underline decoration, or colored emphasis. A portrait-oriented first-dance image anchors two smaller offset photographs of Slate White and Infinity floors. A scrim behind the headline maintains contrast. The service description, primary floor action, and small closing thought occupy a separate bottom row.
 
-**Light preference:** `prefers-color-scheme: light` swaps the reading surfaces to `light-bg` / `light-panel`, dark text, and deeper red `light-accent`. Quote-section primary buttons use deep red with white text and the darker hover value. Other coral buttons retain bright coral with dark text. Photo stages, header, mobile menu, and lightbox stay dark. There is no manual theme switch.
+Desktop uses a 39% center image, with two 23% side images. At intermediate widths, the center widens to 47%. Below 768px it becomes 72%, the outer images are clipped at the viewport edges, and the bottom row keeps a service description and primary action. The small signoff is removed. The hero uses stable small-viewport sizing and retains room for its action at the smallest tested phone width, 320px.
 
-**The Image Contrast Rule.** Preserve the actual image overlays when changing crops or copy. The mobile hero uses a stronger top scrim, holding dark opacity through the headline before opening toward the photograph. Accent words and pale text must remain readable over the selected image.
+The center image uses responsive landscape WebPs on desktop and dedicated portrait crops on mobile. These are AI-enhanced derivatives of the original photograph; synthesized detail is not additional camera-captured detail. The original photo remains untouched in the gallery. See `assets/sources.json` and the recorded enhancement prompt.
 
-## Typography
+## Color and type
 
-Self-hosted **Barlow Condensed** supplies display, headings, product selectors, testimonial statements, and the closing wordmark; **Manrope** supplies body copy and controls. Display uses weight 600; the bundled 700 file remains available but is not the default heading weight.
+Charcoal, warm white, and blue form the default palette. Blue is reserved for primary controls, selection, focus, and small functional details. Heading emphasis inherits its surrounding text color. There is no citron, coral, or neon emphasis plate.
 
-The frontmatter captures the main roles. The hero has a tight two-line display; standard page titles use `clamp(76px,10.7vw,164px)` and detail titles use `clamp(76px,9.2vw,140px)`. Most body copy is 14px with a maximum paragraph measure of 65ch; detail descriptions reach 16px. Supporting labels range from 10–13px. Uppercase is limited to small specification labels, not body copy.
+Manrope is self-hosted and supplies headings, body, controls, floor selectors, and the footer wordmark. Major headings use weight 500 and tracking no tighter than -0.04em. Body copy is 14px with a comfortable line length. The previously bundled Barlow Condensed remains available for the decorative quotation mark and legacy asset portability; it is not the heading voice.
 
-**The Statement Rule.** Reserve dense condensed type for statements and headings. Use Manrope for explanations, navigation, forms, and captions. Emphasis within major headings uses upright coral type, not italics.
+Light preference uses paper-white reading surfaces, dark text, and deeper blue for accessible small accents. The header, hero, photo stages, and lightbox remain dark. Pale-blue controls use charcoal text in both preferences. The light quote action uses deeper blue and white text. No manual theme toggle is needed.
 
-## Layout
+## Layout and controls
 
-Sections use fluid vertical spacing and gutters from the frontmatter, with a maximum content width of 1800px. Image stages and quote backgrounds extend across the page. Desktop compositions use unequal columns: floor panels and section headings at 1.5:1, gallery at 1.25:1, and service, FAQ, and inquiry layouts close to equal. Gallery offsets and mixed image ratios create editorial rhythm; the design does not rely on a uniform card grid.
+The introduction is a two-column editorial statement and supporting copy, stacking on mobile. The removed geometric floor graphic is not part of this direction. Floor content remains an accessible tab group with photographic panels. The gallery uses unequal columns and staggered images on desktop, then a single column on mobile. Service, FAQ, and inquiry sections preserve the original demo's information and functionality.
 
-At **1023px and below**, gaps and product padding tighten. At **767px and below**, gutters become 24px, most major layouts stack, section spacing becomes 72px, galleries normalize to 4:3, and their offsets disappear. Desktop navigation becomes a menu with a retained inquiry action. Floor tabs stay in three columns; the form keeps two columns. Mobile h2 is 62px and hero display uses `clamp(82px,17.5vw,132px)`; quote headings use 72px.
+Media has square edges. Buttons and radio choices have a 4px radius; only the mobile menu trigger is circular. All actions use text labels without decorative arrows. Selected floor tabs have a blue underline. Keyboard focus uses a two-pixel accent outline and generous offset. Mobile controls retain usable touch areas; fields retain visible labels.
 
-At **374px and below**, gutters become 20px, form fields stack, the hero signoff hides, and display sizes tighten. At **1600px and above**, the hero is 900px tall. Detail pages reuse the same type, gutters, photo stages, product comparisons, and stacked mobile patterns.
+## Motion and interaction
 
-## Elevation & Depth
+One-time photographic frame reveals open with a restrained clip-path transition. Hero lettering and supporting content enter gently. The shared easing is `cubic-bezier(.16,1,.3,1)`. Buttons lift slightly on hover and return on press. Gallery images scale subtly. Nothing loops or hijacks scrolling. Reduced-motion preference removes animations, transitions, and smooth scrolling without hiding content.
 
-Surfaces are flat. Tonal panels, thin rules, photographic scrims, and staggered imagery create depth. Shadows belong only to overlays: mobile navigation uses `0 24px 40px #0004`, and the lightbox uses `0 25px 100px #0009` above a `#000d` backdrop. Avoid introducing floating card shadows into content sections.
+The mobile menu closes on Escape, link selection, or returning to desktop width. Floor tabs support left/right arrows, Home, and End; choosing a floor also preselects the inquiry radio. Gallery dialogs have text-only previous, next, and close controls, keyboard support, and focus restoration.
 
-## Shapes
+The inquiry form is a demo: it checks required fields, past dates, and Infinity's indoor-only constraint, then prepares a copyable summary and optional email draft. It never sends automatically or stores leads.
 
-Media, content panels, and form fields have square edges. Actions and floor-choice chips use pill corners; the menu trigger is circular. One-pixel rules separate sections, tabs, fields, and FAQ rows. The selected floor tab uses a three-pixel coral underline. Arrow icons are simple inline strokes, typically 20px inside actions.
+## Verification and limits
 
-## Components
-
-- **Buttons:** Coral primary, warm-white secondary, and transparent outlined variants share a 58px minimum height, pill shape, and 24px icon gap. Small header buttons use a 48px minimum height. Hover lifts buttons 3px; active returns them with a 0.98 scale. Global focus is a two-pixel accent outline with a 6px offset.
-- **Navigation:** Absolute over the opening stage, with small Manrope links and a coral underline on hover. The mobile trigger changes to a close mark; the menu closes on link selection, Escape, or returning to desktop width. Escape restores trigger focus.
-- **Floor collection:** Three accessible tabs reveal one large photo and a square information panel. Arrow keys, Home, and End move selection; the selected tab has a visible underline and arrow. Choosing a tab also selects the corresponding inquiry radio. Product actions carry the floor choice to the inquiry page.
-- **Photography and gallery:** Real source imagery remains central. Hover scales images subtly (1.03–1.035); gallery reveal controls are always visible on mobile. The native dialog displays a contained image, caption, previous/next controls, keyboard arrows, Escape, and focus restoration to its trigger. Photo stages use cover crops; dialog images use contain.
-- **FAQ:** Native details rows use thin dividers and a coral plus that rotates into a cross when open.
-- **Inquiry fields:** Transparent, square, bottom-border fields with visible labels. Focus changes the border to accent. Fields are at least 48px high; mobile text inputs use 16px text. Radio choices are pills with a solid selected fill and separate focus outline. The indoor-only Infinity constraint produces an inline message and native validation. A valid inquiry reveals a readable summary, copy feedback, and an email-draft action; it does not send automatically. Edits hide the stale summary.
-- **Motion:** The shared easing is `cubic-bezier(.16,1,.3,1)`. Hero entrance lasts 1.1s with a 0.14s second-line delay; supporting hero content follows, sections reveal once in 0.8s, and floor imagery enters in 0.6s. Hover transitions are short, without looping decoration. Reduced-motion preference removes animation/transitions and smooth scrolling while preserving visible content and functionality.
-
-## Do's and Don'ts
-
-- **Do** retain the expressive type, original photography, sharp surfaces, and rounded controls as one visual family.
-- **Do** keep body copy readable and restore image contrast after changing photographs or crops.
-- **Do** preserve both color preferences, keyboard states, visible labels, and reduced-motion behavior.
-- **Don't** turn editorial sections into repetitive floating cards or apply pill corners to photographs.
-- **Don't** add ornamental motion that competes with event imagery or hide content behind animation.
-- **Don't** substitute invented business claims for authentic source material.
-
-The system was extracted directly from the final HTML, CSS, and JavaScript. Impeccable context, concept, and detector commands were unavailable because of engine/cache access limitations; no automated design-detector result is claimed. The manual review's mobile headline contrast issue was corrected with the stronger scrim before this record was generated.
+The original demo's routes, contact paths, and product facts remain intact. Desktop, intermediate, and mobile compositions are manually checked, with local link, single-H1, duplicate-ID, script-syntax, and no-arrow scans. Light-mode contrast is supported through separate semantic tokens. The Impeccable engine was unavailable in this environment, so no automated detector result is claimed. No Lighthouse score or cross-device hardware certification is claimed.

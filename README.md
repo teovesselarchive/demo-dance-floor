@@ -1,6 +1,6 @@
 # Elite Surfaces / Vessel Archive demo
 
-A complete, responsive redesign of Elite Dance Floors. Cinematic photography, bold type, coral accents, an interactive floor collection, event gallery, and a locally generated inquiry.
+A complete, responsive redesign of Elite Dance Floors. A layered photographic opening, broad white typography, cornflower-blue controls, an interactive floor collection, event gallery, and a locally generated inquiry. The headline is “The floor is yours.”
 
 ## Run
 
@@ -46,8 +46,14 @@ Business offerings, public contact information, service locations, logo, event p
 
 The decorative chrome disco ball was generated using the built-in ImageGen tool. It is an illustration, not a photograph of a rentable product. Its exact prompt is in `assets/disco-ball-prompt.txt`.
 
-Barlow Condensed and Manrope are self-hosted under the included SIL Open Font Licenses. Arrow geometry follows Tabler Icons (MIT); license included.
+The homepage hero is an AI-enhanced derivative of the original wedding photo. The original remains unchanged in the gallery. Separate responsive landscape and portrait WebP files improve clarity and mobile loading; synthesized detail is not additional camera-captured detail. The exact enhancement prompt is included in `assets/hero-enhancement-prompt.txt`. The disco-ball cutout is served as an optimized WebP.
+
+Barlow Condensed and Manrope are self-hosted under the included SIL Open Font Licenses. All action arrows have been removed; buttons use text labels. The Tabler license remains bundled from the earlier demo revision.
+
+## Design references
+
+The visual direction draws on event-equipment rental company [Meetings](https://www.cssdesignawards.com/sites/meetings/41918/), CSS Design Awards Website of the Day on September 10, 2022, and the archived award presentation of [OBSESD Wedding Photography](https://www.cssdesignawards.com/sites/obsesd-wedding-photography/47528/), Special Kudos on May 26, 2025. The references informed photographic composition and editorial hierarchy. All website code is original; no reference-site code, branding, or photography is bundled.
 
 ## Verification
 
-Checked at desktop and mobile widths, including menu open/close, floor selection, gallery navigation/close, quote preselection, indoor-only validation, and inquiry generation. All nine HTML pages were checked for local file links, anchor targets, duplicate IDs, and a single page heading. JavaScript syntax was checked. Browser checks did not send any inquiry or email. Automated Lighthouse was unavailable in this environment; no Lighthouse score or performance certification is claimed.
+Checked at 320, 390, 768, 1024, and 1440 pixel viewport widths, including menu open/close, floor selection, gallery navigation/close, quote preselection, indoor-only validation, and inquiry generation. All nine HTML pages were checked for local file links, anchor targets, duplicate IDs, and a single page heading. JavaScript syntax was checked. Browser checks did not send any inquiry or email. Automated Lighthouse was unavailable in this environment; no Lighthouse score or performance certification is claimed.

@@ -1,0 +1,5 @@
+Tool: built-in ImageGen, source oak-first-dance.webp. Enhanced image is an AI-derived restoration for the design demo. Original source remains unchanged.
+
+Edit this supplied real wedding photograph solely to improve image quality for a large website hero. Upscale to 3072 by 2048 or the highest available landscape resolution, retain the exact 3:2-ish composition and crop. Carefully reduce compression softness and mild digital noise, restore natural restrained local clarity in the wood dance floor, clothing, wedding dress and roof beams. Preserve every person's exact identity, facial expression, pose, anatomy, clothing, and location; preserve all objects, table arrangement, lights, flooring pattern, perspective, and the original daylight atmosphere. Do not beautify faces, do not invent people or details, do not relight the scene dramatically, do not add text or graphics, do not remove anything. This must remain the same documentary photograph, gently restored, not a reimagining. High resolution output.
+
+Actual generated resolution: 1536×1024. Published responsive derivatives: 768, 1152 and 1536 pixel landscape, 400 and 576 pixel portrait.

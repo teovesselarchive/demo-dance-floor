@@ -11,7 +11,7 @@ Delegated by the user. Buildless HTML, CSS, and JavaScript: the demo is portable
 Couples, event planners, and corporate/private event hosts comparing dance floor rentals in Sacramento and surrounding areas (inferred from the source business site).
 
 ## Product Purpose
-A complete creative-agency demo redesign for Vessel Archive, preserving Elite Surfaces business offerings and contact paths. Destination: the user's empty private GitHub repository teovesselarchive/demo-dance-floor.
+A complete creative-agency demo redesign for Vessel Archive, preserving Elite Surfaces business offerings and contact paths. Destination: the user's private GitHub repository teovesselarchive/demo-dance-floor.
 
 ## Capabilities and Constraints
 Oak wood floors support indoor/outdoor use. Infinity is a mirrored LED floor for indoor use only. Slate White is a clean white event floor. Professional DJs are offered through a network. Preserve product detail pages, gallery, testimonial, service areas, and inquiry fields. No invented prices, capacities, reviews, or availability. Demo inquiries are assembled locally and can be copied or opened as an email draft; no backend sends or stores leads.
@@ -21,3 +21,6 @@ Elite Surfaces is the customer-facing business. Vessel Archive is the creative a
 
 ## Evidence on Hand
 https://www.elitedancefloors.com/ and product, DJ, testimonial, contact pages. Original site supplies photography, logo, contact telephone 530-867-2426, email Info@elitedancefloors.com, service locations, and Olivia B. wedding testimonial. Photography and identity retained for this design demo; commercial asset rights remain with original owners.
+
+## Refinement Direction
+The user wants tasteful creative impact, responsive mobile behavior, sharper hero imagery, text-only controls, and an unexpected accent. They rejected the highlighted “here” treatment as too close to Vessel Archive and requested award-winning references from the events niche. The resulting direction uses layered event photographs, broader white typography, the headline “The floor is yours,” and blue action states. The customer-facing identity remains Elite Surfaces.

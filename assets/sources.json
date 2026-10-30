@@ -13,7 +13,7 @@
       1080
     ],
     "bytes": 230308,
-    "processing": "Resized only when needed to fit within 2000×1600; EXIF orientation normalized; converted to WebP quality 86. No creative edits.",
+    "processing": "Resized only when needed to fit within 2000\u00d71600; EXIF orientation normalized; converted to WebP quality 86. No creative edits.",
     "note": "Original photograph contains a prominent Elite Surfaces watermark."
   },
   {
@@ -30,7 +30,7 @@
       760
     ],
     "bytes": 124238,
-    "processing": "Resized only when needed to fit within 2000×1600; EXIF orientation normalized; converted to WebP quality 86. No creative edits."
+    "processing": "Resized only when needed to fit within 2000\u00d71600; EXIF orientation normalized; converted to WebP quality 86. No creative edits."
   },
   {
     "name": "infinity-floor",
@@ -46,7 +46,7 @@
       800
     ],
     "bytes": 163652,
-    "processing": "Resized only when needed to fit within 2000×1600; EXIF orientation normalized; converted to WebP quality 86. No creative edits."
+    "processing": "Resized only when needed to fit within 2000\u00d71600; EXIF orientation normalized; converted to WebP quality 86. No creative edits."
   },
   {
     "name": "white-floor",
@@ -62,7 +62,7 @@
       768
     ],
     "bytes": 170408,
-    "processing": "Resized only when needed to fit within 2000×1600; EXIF orientation normalized; converted to WebP quality 86. No creative edits."
+    "processing": "Resized only when needed to fit within 2000\u00d71600; EXIF orientation normalized; converted to WebP quality 86. No creative edits."
   },
   {
     "name": "oak-wedding-reception",
@@ -78,7 +78,7 @@
       760
     ],
     "bytes": 134596,
-    "processing": "Resized only when needed to fit within 2000×1600; EXIF orientation normalized; converted to WebP quality 86. No creative edits."
+    "processing": "Resized only when needed to fit within 2000\u00d71600; EXIF orientation normalized; converted to WebP quality 86. No creative edits."
   },
   {
     "name": "oak-first-dance",
@@ -94,7 +94,7 @@
       757
     ],
     "bytes": 179888,
-    "processing": "Resized only when needed to fit within 2000×1600; EXIF orientation normalized; converted to WebP quality 86. No creative edits."
+    "processing": "Resized only when needed to fit within 2000\u00d71600; EXIF orientation normalized; converted to WebP quality 86. No creative edits."
   },
   {
     "name": "white-ocean-view",
@@ -110,7 +110,7 @@
       480
     ],
     "bytes": 99094,
-    "processing": "Resized only when needed to fit within 2000×1600; EXIF orientation normalized; converted to WebP quality 86. No creative edits."
+    "processing": "Resized only when needed to fit within 2000\u00d71600; EXIF orientation normalized; converted to WebP quality 86. No creative edits."
   },
   {
     "name": "white-first-dance",
@@ -126,7 +126,7 @@
       1421
     ],
     "bytes": 342736,
-    "processing": "Resized only when needed to fit within 2000×1600; EXIF orientation normalized; converted to WebP quality 86. No creative edits."
+    "processing": "Resized only when needed to fit within 2000\u00d71600; EXIF orientation normalized; converted to WebP quality 86. No creative edits."
   },
   {
     "name": "wedding-floor-evening",
@@ -142,7 +142,7 @@
       1440
     ],
     "bytes": 482338,
-    "processing": "Resized only when needed to fit within 2000×1600; EXIF orientation normalized; converted to WebP quality 86. No creative edits.",
+    "processing": "Resized only when needed to fit within 2000\u00d71600; EXIF orientation normalized; converted to WebP quality 86. No creative edits.",
     "note": "Original photograph contains a prominent Elite Surfaces watermark."
   },
   {
@@ -159,7 +159,7 @@
       1176
     ],
     "bytes": 136760,
-    "processing": "Resized only when needed to fit within 2000×1600; EXIF orientation normalized; converted to WebP quality 86. No creative edits."
+    "processing": "Resized only when needed to fit within 2000\u00d71600; EXIF orientation normalized; converted to WebP quality 86. No creative edits."
   },
   {
     "name": "dj-performance",
@@ -175,7 +175,7 @@
       1280
     ],
     "bytes": 157072,
-    "processing": "Resized only when needed to fit within 2000×1600; EXIF orientation normalized; converted to WebP quality 86. No creative edits.",
+    "processing": "Resized only when needed to fit within 2000\u00d71600; EXIF orientation normalized; converted to WebP quality 86. No creative edits.",
     "note": "Existing site stock photograph; use as service illustration, not a claimed client event."
   },
   {
@@ -192,7 +192,7 @@
       1440
     ],
     "bytes": 296334,
-    "processing": "Resized only when needed to fit within 2000×1600; EXIF orientation normalized; converted to WebP quality 86. No creative edits."
+    "processing": "Resized only when needed to fit within 2000\u00d71600; EXIF orientation normalized; converted to WebP quality 86. No creative edits."
   },
   {
     "filename": "elite-surfaces-logo.svg",
@@ -216,7 +216,7 @@
     "filename": "manrope-variable.woff2",
     "source_url": "https://fonts.gstatic.com/s/manrope/v23/xn7gYHE41ni1AdIRggexSvfedN4.woff2",
     "bytes": 24436,
-    "note": "Latin subset; variable weight 200–800; SIL Open Font License."
+    "note": "Latin subset; variable weight 200\u2013800; SIL Open Font License."
   },
   {
     "filename": "barlow-condensed-OFL.txt",
@@ -229,5 +229,70 @@
     "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/OFL.txt",
     "bytes": 4387,
     "note": "Font license."
+  },
+  {
+    "filename": "hero-enhanced-1152.webp",
+    "source": "AI-enhanced derivative of oak-first-dance.webp, created with built-in ImageGen. Original retained unchanged.",
+    "dimensions": [
+      1152,
+      768
+    ],
+    "bytes": 253200,
+    "processing": "Responsive WebP, quality 90. Mobile versions use a portrait crop. Enhanced detail is synthesized, not additional camera-captured detail.",
+    "prompt_file": "hero-enhancement-prompt.txt"
+  },
+  {
+    "filename": "hero-enhanced-1536.webp",
+    "source": "AI-enhanced derivative of oak-first-dance.webp, created with built-in ImageGen. Original retained unchanged.",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "bytes": 366038,
+    "processing": "Responsive WebP, quality 90. Mobile versions use a portrait crop. Enhanced detail is synthesized, not additional camera-captured detail.",
+    "prompt_file": "hero-enhancement-prompt.txt"
+  },
+  {
+    "filename": "hero-enhanced-768.webp",
+    "source": "AI-enhanced derivative of oak-first-dance.webp, created with built-in ImageGen. Original retained unchanged.",
+    "dimensions": [
+      768,
+      512
+    ],
+    "bytes": 138054,
+    "processing": "Responsive WebP, quality 90. Mobile versions use a portrait crop. Enhanced detail is synthesized, not additional camera-captured detail.",
+    "prompt_file": "hero-enhancement-prompt.txt"
+  },
+  {
+    "filename": "hero-mobile-400.webp",
+    "source": "AI-enhanced derivative of oak-first-dance.webp, created with built-in ImageGen. Original retained unchanged.",
+    "dimensions": [
+      400,
+      711
+    ],
+    "bytes": 86174,
+    "processing": "Responsive WebP, quality 90. Mobile versions use a portrait crop. Enhanced detail is synthesized, not additional camera-captured detail.",
+    "prompt_file": "hero-enhancement-prompt.txt"
+  },
+  {
+    "filename": "hero-mobile-576.webp",
+    "source": "AI-enhanced derivative of oak-first-dance.webp, created with built-in ImageGen. Original retained unchanged.",
+    "dimensions": [
+      576,
+      1024
+    ],
+    "bytes": 138774,
+    "processing": "Responsive WebP, quality 90. Mobile versions use a portrait crop. Enhanced detail is synthesized, not additional camera-captured detail.",
+    "prompt_file": "hero-enhancement-prompt.txt"
+  },
+  {
+    "filename": "disco-ball.webp",
+    "source": "Optimized derivative of generated disco-ball.png",
+    "dimensions": [
+      680,
+      680
+    ],
+    "bytes": 119398,
+    "processing": "Resized to 680 pixels and encoded WebP with alpha, quality 90."
   }
 ]
