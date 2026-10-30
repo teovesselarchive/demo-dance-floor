@@ -1,0 +1,406 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-30T03:48:43.992347+00:00",
+  "title": "Design System: Elite Surfaces",
+  "extensions": {
+    "colorMeta": {
+      "bg": {
+        "role": "neutral",
+        "displayName": "Charcoal",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 0.00)",
+          "oklch(26.43% 0.00000 0.00)",
+          "oklch(37.86% 0.00000 0.00)",
+          "oklch(49.29% 0.00000 0.00)",
+          "oklch(60.71% 0.00000 0.00)",
+          "oklch(72.14% 0.00000 0.00)",
+          "oklch(83.57% 0.00000 0.00)",
+          "oklch(95.00% 0.00000 0.00)"
+        ]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Raised Charcoal",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 0.00)",
+          "oklch(26.43% 0.00000 0.00)",
+          "oklch(37.86% 0.00000 0.00)",
+          "oklch(49.29% 0.00000 0.00)",
+          "oklch(60.71% 0.00000 0.00)",
+          "oklch(72.14% 0.00000 0.00)",
+          "oklch(83.57% 0.00000 0.00)",
+          "oklch(95.00% 0.00000 0.00)"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Warm White",
+        "tonalRamp": [
+          "oklch(15.00% 0.00698 88.64)",
+          "oklch(26.43% 0.00698 88.64)",
+          "oklch(37.86% 0.00698 88.64)",
+          "oklch(49.29% 0.00698 88.64)",
+          "oklch(60.71% 0.00698 88.64)",
+          "oklch(72.14% 0.00698 88.64)",
+          "oklch(83.57% 0.00698 88.64)",
+          "oklch(95.00% 0.00698 88.64)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Soft Stone",
+        "tonalRamp": [
+          "oklch(15.00% 0.00709 97.38)",
+          "oklch(26.43% 0.00709 97.38)",
+          "oklch(37.86% 0.00709 97.38)",
+          "oklch(49.29% 0.00709 97.38)",
+          "oklch(60.71% 0.00709 97.38)",
+          "oklch(72.14% 0.00709 97.38)",
+          "oklch(83.57% 0.00709 97.38)",
+          "oklch(95.00% 0.00709 97.38)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Stage Coral",
+        "tonalRamp": [
+          "oklch(15.00% 0.17604 30.15)",
+          "oklch(26.43% 0.17604 30.15)",
+          "oklch(37.86% 0.17604 30.15)",
+          "oklch(49.29% 0.17604 30.15)",
+          "oklch(60.71% 0.17604 30.15)",
+          "oklch(72.14% 0.17604 30.15)",
+          "oklch(83.57% 0.17604 30.15)",
+          "oklch(95.00% 0.17604 30.15)"
+        ]
+      },
+      "accent-hover": {
+        "role": "primary",
+        "displayName": "Soft Coral",
+        "tonalRamp": [
+          "oklch(15.00% 0.12928 29.53)",
+          "oklch(26.43% 0.12928 29.53)",
+          "oklch(37.86% 0.12928 29.53)",
+          "oklch(49.29% 0.12928 29.53)",
+          "oklch(60.71% 0.12928 29.53)",
+          "oklch(72.14% 0.12928 29.53)",
+          "oklch(83.57% 0.12928 29.53)",
+          "oklch(95.00% 0.12928 29.53)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Warm Divider",
+        "tonalRamp": [
+          "oklch(15.00% 0.00698 88.64 / 0.18)",
+          "oklch(26.43% 0.00698 88.64 / 0.18)",
+          "oklch(37.86% 0.00698 88.64 / 0.18)",
+          "oklch(49.29% 0.00698 88.64 / 0.18)",
+          "oklch(60.71% 0.00698 88.64 / 0.18)",
+          "oklch(72.14% 0.00698 88.64 / 0.18)",
+          "oklch(83.57% 0.00698 88.64 / 0.18)",
+          "oklch(95.00% 0.00698 88.64 / 0.18)"
+        ]
+      },
+      "light-bg": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "tonalRamp": [
+          "oklch(15.00% 0.00413 91.45)",
+          "oklch(26.43% 0.00413 91.45)",
+          "oklch(37.86% 0.00413 91.45)",
+          "oklch(49.29% 0.00413 91.45)",
+          "oklch(60.71% 0.00413 91.45)",
+          "oklch(72.14% 0.00413 91.45)",
+          "oklch(83.57% 0.00413 91.45)",
+          "oklch(95.00% 0.00413 91.45)"
+        ]
+      },
+      "light-panel": {
+        "role": "neutral",
+        "displayName": "Paper Panel",
+        "tonalRamp": [
+          "oklch(15.00% 0.00547 95.10)",
+          "oklch(26.43% 0.00547 95.10)",
+          "oklch(37.86% 0.00547 95.10)",
+          "oklch(49.29% 0.00547 95.10)",
+          "oklch(60.71% 0.00547 95.10)",
+          "oklch(72.14% 0.00547 95.10)",
+          "oklch(83.57% 0.00547 95.10)",
+          "oklch(95.00% 0.00547 95.10)"
+        ]
+      },
+      "light-text": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 0.00)",
+          "oklch(26.43% 0.00000 0.00)",
+          "oklch(37.86% 0.00000 0.00)",
+          "oklch(49.29% 0.00000 0.00)",
+          "oklch(60.71% 0.00000 0.00)",
+          "oklch(72.14% 0.00000 0.00)",
+          "oklch(83.57% 0.00000 0.00)",
+          "oklch(95.00% 0.00000 0.00)"
+        ]
+      },
+      "light-muted": {
+        "role": "neutral",
+        "displayName": "Stone Ink",
+        "tonalRamp": [
+          "oklch(15.00% 0.00479 106.59)",
+          "oklch(26.43% 0.00479 106.59)",
+          "oklch(37.86% 0.00479 106.59)",
+          "oklch(49.29% 0.00479 106.59)",
+          "oklch(60.71% 0.00479 106.59)",
+          "oklch(72.14% 0.00479 106.59)",
+          "oklch(83.57% 0.00479 106.59)",
+          "oklch(95.00% 0.00479 106.59)"
+        ]
+      },
+      "light-accent": {
+        "role": "primary",
+        "displayName": "Deep Coral",
+        "tonalRamp": [
+          "oklch(15.00% 0.17349 30.73)",
+          "oklch(26.43% 0.17349 30.73)",
+          "oklch(37.86% 0.17349 30.73)",
+          "oklch(49.29% 0.17349 30.73)",
+          "oklch(60.71% 0.17349 30.73)",
+          "oklch(72.14% 0.17349 30.73)",
+          "oklch(83.57% 0.17349 30.73)",
+          "oklch(95.00% 0.17349 30.73)"
+        ]
+      },
+      "light-accent-hover": {
+        "role": "primary",
+        "displayName": "Dark Coral",
+        "tonalRamp": [
+          "oklch(15.00% 0.14901 30.42)",
+          "oklch(26.43% 0.14901 30.42)",
+          "oklch(37.86% 0.14901 30.42)",
+          "oklch(49.29% 0.14901 30.42)",
+          "oklch(60.71% 0.14901 30.42)",
+          "oklch(72.14% 0.14901 30.42)",
+          "oklch(83.57% 0.14901 30.42)",
+          "oklch(95.00% 0.14901 30.42)"
+        ]
+      },
+      "light-line": {
+        "role": "neutral",
+        "displayName": "Ink Divider",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 0.00 / 0.2)",
+          "oklch(26.43% 0.00000 0.00 / 0.2)",
+          "oklch(37.86% 0.00000 0.00 / 0.2)",
+          "oklch(49.29% 0.00000 0.00 / 0.2)",
+          "oklch(60.71% 0.00000 0.00 / 0.2)",
+          "oklch(72.14% 0.00000 0.00 / 0.2)",
+          "oklch(83.57% 0.00000 0.00 / 0.2)",
+          "oklch(95.00% 0.00000 0.00 / 0.2)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Stage Display",
+        "purpose": "Hero statement; condensed, tight, and emphatic."
+      },
+      "headline": {
+        "displayName": "Editorial Headline",
+        "purpose": "Major section statements."
+      },
+      "body": {
+        "displayName": "Quiet Body",
+        "purpose": "Readable supporting explanations; most copy uses 14px."
+      }
+    },
+    "shadows": [
+      {
+        "name": "mobile-menu",
+        "value": "0 24px 40px #0004",
+        "purpose": "Separate expanded navigation from the image stage."
+      },
+      {
+        "name": "lightbox",
+        "value": "0 25px 100px #0009",
+        "purpose": "Modal image overlay only."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Shared entrance and interaction easing."
+      },
+      {
+        "name": "hero-enter",
+        "value": "1.1s; translateY(24px) to 0; opacity .65 to 1; second-line delay .14s",
+        "purpose": "One-time headline entrance."
+      },
+      {
+        "name": "section-enter",
+        "value": ".8s; translateY(20px) to 0; opacity .65 to 1",
+        "purpose": "One-time reveal at intersection threshold .12."
+      },
+      {
+        "name": "floor-enter",
+        "value": ".6s; scale(1.025) to 1; opacity .65 to 1",
+        "purpose": "Selected material photo entrance."
+      },
+      {
+        "name": "button-state",
+        "value": "background .25s, color .25s, transform .3s",
+        "purpose": "Hover translateY(-3px); active scale(.98)."
+      },
+      {
+        "name": "image-hover",
+        "value": ".8s\u20131s; scale(1.03\u20131.035)",
+        "purpose": "Small photographic enlargement."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact",
+        "value": "374px",
+        "query": "(max-width:374px)"
+      },
+      {
+        "name": "mobile",
+        "value": "767px",
+        "query": "(max-width:767px)"
+      },
+      {
+        "name": "tablet",
+        "value": "1023px",
+        "query": "(max-width:1023px)"
+      },
+      {
+        "name": "wide",
+        "value": "1600px",
+        "query": "(min-width:1600px)"
+      }
+    ],
+    "preferences": {
+      "colorScheme": "Dark default. Light preference changes reading surfaces and accent, retains dark image stages, header, menu, and lightbox. No manual toggle.",
+      "reducedMotion": "All animations and transitions disabled; scrolling becomes immediate. Content remains visible."
+    },
+    "focus": {
+      "global": "2px solid var(--accent); outline-offset:6px",
+      "field": "Accent bottom border, no outline",
+      "choice": "2px accent outline; outline-offset:4px"
+    },
+    "scrims": {
+      "heroMobile": "linear-gradient(180deg,rgba(12,12,12,.74) 0%,rgba(12,12,12,.7) 48%,rgba(12,12,12,.08) 76%),linear-gradient(0deg,#101010e6,transparent 60%)"
+    },
+    "provenance": {
+      "mode": "Scan of shipped HTML/CSS/JavaScript; authorized refresh of provisional DESIGN.md.",
+      "limitations": "Impeccable context/concept/detector commands unavailable due engine/cache access. No automated detector result claimed.",
+      "review": "Manual material review passed after stronger mobile hero scrim corrected headline contrast.",
+      "ramps": "Preview-only OKLCH lightness ramps at fixed extracted chroma/hue; these ramps are not additional production tokens."
+    }
+  },
+  "components": [
+    {
+      "name": "Coral Button",
+      "kind": "button",
+      "refersTo": "button-coral",
+      "description": "Pill action with lift, pressed, and keyboard-focus states.",
+      "html": "<button class=\"ds-button\">Find your floor<svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:24px;min-height:58px;padding:16px 26px;border:1px solid transparent;border-radius:999px;font:700 13px/1.4 Manrope,Arial,sans-serif;text-align:center;cursor:pointer;transition:background .25s,color .25s,transform .3s cubic-bezier(.16,1,.3,1)}.ds-button svg{width:20px;height:20px}.ds-button:hover{transform:translateY(-3px)}.ds-button:active{transform:translateY(0) scale(.98)}.ds-button:focus-visible{outline:2px solid var(--accent,#ff725e);outline-offset:6px}@media(prefers-reduced-motion:reduce){.ds-button{transition:none}}.ds-button{background:#ff725e;color:#151515}.ds-button:hover{background:#ff9686}"
+    },
+    {
+      "name": "Light Button",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "Pill action with lift, pressed, and keyboard-focus states.",
+      "html": "<button class=\"ds-button\">Let\u2019s plan your event<svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:24px;min-height:58px;padding:16px 26px;border:1px solid transparent;border-radius:999px;font:700 13px/1.4 Manrope,Arial,sans-serif;text-align:center;cursor:pointer;transition:background .25s,color .25s,transform .3s cubic-bezier(.16,1,.3,1)}.ds-button svg{width:20px;height:20px}.ds-button:hover{transform:translateY(-3px)}.ds-button:active{transform:translateY(0) scale(.98)}.ds-button:focus-visible{outline:2px solid var(--accent,#ff725e);outline-offset:6px}@media(prefers-reduced-motion:reduce){.ds-button{transition:none}}.ds-button{background:#f4f2ed;color:#151515}.ds-button:hover{background:var(--accent,#ff725e)}"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Pill action with lift, pressed, and keyboard-focus states.",
+      "html": "<button class=\"ds-button\">Copy inquiry<svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:24px;min-height:58px;padding:16px 26px;border:1px solid transparent;border-radius:999px;font:700 13px/1.4 Manrope,Arial,sans-serif;text-align:center;cursor:pointer;transition:background .25s,color .25s,transform .3s cubic-bezier(.16,1,.3,1)}.ds-button svg{width:20px;height:20px}.ds-button:hover{transform:translateY(-3px)}.ds-button:active{transform:translateY(0) scale(.98)}.ds-button:focus-visible{outline:2px solid var(--accent,#ff725e);outline-offset:6px}@media(prefers-reduced-motion:reduce){.ds-button{transition:none}}.ds-button{border-color:var(--line,rgba(244,242,237,.18));background:transparent;color:var(--text,#f4f2ed)}.ds-button:hover{background:var(--text,#f4f2ed);color:var(--bg,#151515)}"
+    },
+    {
+      "name": "Inquiry Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Visible label, transparent field, and accent focus border.",
+      "html": "<label class=\"ds-field\">Your name<input autocomplete=\"name\" placeholder=\"Full name\" required></label>",
+      "css": ".ds-field{display:block;color:var(--text,#f4f2ed);font:400 12px/1.6 Manrope,Arial,sans-serif}.ds-field input{display:block;width:100%;min-height:48px;margin-top:7px;padding:13px 0 14px;background:transparent;border:0;border-bottom:1px solid var(--line,rgba(244,242,237,.18));border-radius:0;color:var(--text,#f4f2ed);font:400 13px/1.5 Manrope,Arial,sans-serif;caret-color:var(--accent,#ff725e);transition:border-color .2s}.ds-field input::placeholder{color:var(--muted,#b6b5b0);opacity:.85}.ds-field input:focus{outline:none;border-color:var(--accent,#ff725e)}@media(max-width:767px){.ds-field input{font-size:16px}}@media(prefers-reduced-motion:reduce){.ds-field input{transition:none}}"
+    },
+    {
+      "name": "Desktop Navigation",
+      "kind": "nav",
+      "description": "Small photographic-stage navigation with an underline on hover.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"#floors\">The floors</a><a href=\"#moments\">The moments</a><a href=\"#music\">The music</a></nav>",
+      "css": ".ds-nav{display:flex;gap:36px;color:#f4f2ed;font:600 12px Manrope,Arial,sans-serif;letter-spacing:.01em}.ds-nav a{position:relative;padding:12px 0;color:inherit;text-decoration:none}.ds-nav a:after{content:\"\";position:absolute;left:0;bottom:4px;width:0;height:1px;background:var(--accent,#ff725e);transition:width .25s}.ds-nav a:hover:after{width:100%}.ds-nav a:focus-visible{outline:2px solid var(--accent,#ff725e);outline-offset:6px}@media(prefers-reduced-motion:reduce){.ds-nav a:after{transition:none}}"
+    },
+    {
+      "name": "Floor Choice",
+      "kind": "chip",
+      "refersTo": "choice",
+      "description": "Native radio pill with a solid selected state.",
+      "html": "<label class=\"ds-choice\"><input type=\"radio\" name=\"demo-floor\" checked><span>Oak Wood</span></label>",
+      "css": ".ds-choice{display:inline-block;position:relative;cursor:pointer}.ds-choice input{position:absolute;opacity:0;width:100%;height:100%;margin:0;cursor:pointer}.ds-choice span{display:block;padding:11px 17px;border:1px solid var(--line,rgba(244,242,237,.18));border-radius:999px;font:400 11px/1.6 Manrope,Arial,sans-serif;color:var(--text,#f4f2ed);transition:.2s}.ds-choice input:checked+span{background:var(--text,#f4f2ed);border-color:var(--text,#f4f2ed);color:#151515}.ds-choice input:focus-visible+span{outline:2px solid var(--accent,#ff725e);outline-offset:4px}@media(prefers-color-scheme:light){.ds-choice input:checked+span{color:#f4f2ed}}@media(prefers-reduced-motion:reduce){.ds-choice span{transition:none}}"
+    },
+    {
+      "name": "Floor Information Panel",
+      "kind": "card",
+      "refersTo": "floor-info",
+      "description": "Square tonal panel paired with a full-size material photograph.",
+      "html": "<article class=\"ds-floor-info\"><h3>A classic. For a reason.</h3><p>Warm wood. Natural character. A timeless setting for the moments you\u2019ll want to relive.</p><dl><div><dt>Setting</dt><dd>Indoor & outdoor</dd></div><div><dt>The feel</dt><dd>Timeless & inviting</dd></div></dl></article>",
+      "css": ".ds-floor-info{background:var(--panel,#202020);color:var(--text,#f4f2ed);padding:clamp(28px,4vw,60px);border-radius:0}.ds-floor-info h3{font:600 clamp(38px,4vw,56px)/.98 \"Barlow Condensed\",\"Arial Narrow\",sans-serif;letter-spacing:-.025em;max-width:11ch;margin:0 0 22px}.ds-floor-info p{font:400 14px/1.75 Manrope,Arial,sans-serif;color:var(--muted,#b6b5b0);margin:0 0 26px}.ds-floor-info dl{display:flex;flex-wrap:wrap;gap:24px;margin:0;font:400 12px Manrope,Arial,sans-serif}.ds-floor-info dt{color:var(--muted,#b6b5b0);font-size:10px;text-transform:uppercase;letter-spacing:.06em;margin-bottom:8px}.ds-floor-info dd{margin:0}"
+    },
+    {
+      "name": "Selected Floor Tab",
+      "kind": "custom",
+      "description": "Condensed material selector, coral selection line, and directional arrow; production JavaScript manages tab activation.",
+      "html": "<button class=\"ds-tab\" role=\"tab\" aria-selected=\"true\">Oak Wood<span><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></button>",
+      "css": ".ds-tab{position:relative;display:flex;align-items:center;justify-content:space-between;gap:16px;width:100%;padding:24px 0;background:transparent;border:0;border-top:1px solid var(--line,rgba(244,242,237,.18));border-bottom:1px solid var(--line,rgba(244,242,237,.18));color:var(--muted,#b6b5b0);font:600 32px \"Barlow Condensed\",\"Arial Narrow\",sans-serif;text-align:left;cursor:pointer}.ds-tab:after{content:\"\";position:absolute;bottom:-1px;height:3px;left:0;width:0;background:var(--accent,#ff725e);transition:width .35s cubic-bezier(.16,1,.3,1)}.ds-tab[aria-selected=true]{color:var(--text,#f4f2ed)}.ds-tab[aria-selected=true]:after{width:100%}.ds-tab span{display:flex}.ds-tab svg{width:24px;height:24px;opacity:0;transform:translate(-6px,6px);transition:transform .3s,opacity .3s}.ds-tab[aria-selected=true] svg,.ds-tab:hover svg{opacity:1;transform:none}.ds-tab:focus-visible{outline:2px solid var(--accent,#ff725e);outline-offset:6px}@media(prefers-reduced-motion:reduce){.ds-tab:after,.ds-tab svg{transition:none}}"
+    },
+    {
+      "name": "FAQ Row",
+      "kind": "custom",
+      "description": "Native disclosure with a rotating coral plus.",
+      "html": "<details class=\"ds-faq\"><summary>Can I book a DJ as well?<span>+</span></summary><p>Yes. Elite Surfaces offers a network of professional DJs for weddings, corporate events, and private celebrations.</p></details>",
+      "css": ".ds-faq{border-top:1px solid var(--line,rgba(244,242,237,.18));border-bottom:1px solid var(--line,rgba(244,242,237,.18));color:var(--text,#f4f2ed);font-family:Manrope,Arial,sans-serif}.ds-faq summary{cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;gap:24px;font-size:14px;line-height:1.6;padding:26px 0}.ds-faq summary::-webkit-details-marker{display:none}.ds-faq summary span{font-size:28px;line-height:1;color:var(--accent,#ff725e);transition:transform .25s}.ds-faq[open] summary span{transform:rotate(45deg)}.ds-faq summary:focus-visible{outline:2px solid var(--accent,#ff725e);outline-offset:6px}.ds-faq p{font-size:13px;line-height:1.75;color:var(--muted,#b6b5b0);padding-right:24px;margin:0 0 26px}@media(prefers-reduced-motion:reduce){.ds-faq summary span{transition:none}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The dance floor as a stage.",
+    "overview": "A bold event editorial for Elite Surfaces, created for Vessel Archive. Oversized condensed statements, original event photography, charcoal surfaces, warm white, and vivid coral make celebrations feel immediate. Quiet supporting copy keeps the experience readable.",
+    "keyCharacteristics": [
+      "Cinematic image stages",
+      "Asymmetrical editorial grids",
+      "Generous section spacing",
+      "Sharp media edges",
+      "Rounded controls"
+    ],
+    "rules": [
+      {
+        "name": "The Image Contrast Rule",
+        "body": "Preserve photographic overlays; check headline readability after changing crops or copy.",
+        "section": "colors"
+      },
+      {
+        "name": "The Statement Rule",
+        "body": "Reserve condensed type for major statements and headings; use Manrope for explanations and controls.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "Do retain expressive type, original photography, sharp surfaces, and rounded controls.",
+      "Do preserve both color preferences, keyboard states, visible labels, and reduced-motion behavior."
+    ],
+    "donts": [
+      "Don\u2019t turn editorial sections into repetitive floating cards.",
+      "Don\u2019t apply pill corners to photographs.",
+      "Don\u2019t hide content behind animation."
+    ]
+  }
+}
